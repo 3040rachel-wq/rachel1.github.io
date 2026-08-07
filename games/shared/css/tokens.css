@@ -53,8 +53,16 @@
   --danger: #c0392b;
   --danger-bg: #fdecea;
 
-  --queens-palette: #f6c9c9, #c9e4f6, #d8f6c9, #f6ecc9, #e0c9f6, #c9f6ec,
-    #f6c9e6, #d9d9d9, #c9d3f6;
+  /* Queens region palette — read from JS as a plain array, see queens/render.js */
+  --queens-color-0: #f6c9c9;
+  --queens-color-1: #c9e4f6;
+  --queens-color-2: #d8f6c9;
+  --queens-color-3: #f6ecc9;
+  --queens-color-4: #e0c9f6;
+  --queens-color-5: #c9f6ec;
+  --queens-color-6: #f6c9e6;
+  --queens-color-7: #d9d9d9;
+  --queens-color-8: #c9d3f6;
 }
 
 /* Dark-mode aware surfaces (LinkedIn games UI stays light; we keep a light

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queens — Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23b8860b%22/></svg>">
+  <link rel="stylesheet" href="../shared/css/tokens.css">
+  <link rel="stylesheet" href="../shared/css/base.css">
+  <link rel="stylesheet" href="../shared/css/components.css">
+  <link rel="stylesheet" href="../shared/css/responsive.css">
+  <link rel="stylesheet" href="queens.css">
+</head>
+<body class="game-page">
+  <header class="li-header">
+    <a class="brand" href="../">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="crumb">/ Queens</span>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">✕</a>
+  </header>
+
+  <main>
+    <div class="game-title-row">
+      <h1>♛ Queens</h1>
+      <p class="blurb">One crown per row, column & color region — none touching.</p>
+    </div>
+
+    <details class="how-to-play">
+      <summary>How to play</summary>
+      <p>Place exactly one crown (♛) in every row, every column, and every colored region. Two crowns may never touch, not even diagonally. Tap a cell to cycle it empty → ✕ → ♛ → empty; the ✕ is just a scratch mark to note cells you've ruled out and has no effect on the rules. Use Auto-check to catch conflicts as you go.</p>
+    </details>
+
+    <div class="toolbar">
+      <span id="mistake-chip" class="stat-chip">Mistakes: 0</span>
+      <label class="stat-chip"><input type="checkbox" id="auto-check-toggle" checked> Auto-check</label>
+    </div>
+
+    <div id="board"></div>
+
+    <div class="toolbar">
+      <button id="undo-btn" class="btn btn-secondary">Undo</button>
+      <button id="hint-btn" class="btn btn-secondary">Hint</button>
+      <button id="new-game-btn" class="btn btn-primary">New Game</button>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
