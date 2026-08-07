@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tango — Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23f5a623%22/></svg>">
+  <link rel="stylesheet" href="../shared/css/tokens.css">
+  <link rel="stylesheet" href="../shared/css/base.css">
+  <link rel="stylesheet" href="../shared/css/components.css">
+  <link rel="stylesheet" href="../shared/css/responsive.css">
+  <link rel="stylesheet" href="tango.css">
+</head>
+<body class="game-page">
+  <header class="li-header">
+    <a class="brand" href="../">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="crumb">/ Tango</span>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">✕</a>
+  </header>
+
+  <main>
+    <div class="game-title-row">
+      <h1>☯ Tango</h1>
+      <p class="blurb">Balance the suns and moons. No three in a row.</p>
+    </div>
+
+    <details class="how-to-play">
+      <summary>How to play</summary>
+      <p>Tap a cell to cycle it empty → Sun → Moon → empty. Fill the 6×6 grid so that:</p>
+      <p>• Each row and column has exactly 3 suns and 3 moons.</p>
+      <p>• No 3 identical symbols are adjacent in a row or column, horizontally or vertically.</p>
+      <p>• No two rows are identical, and no two columns are identical.</p>
+      <p>• Cells joined by <strong>=</strong> must match; cells joined by <strong>×</strong> must differ. These markers are fixed and always shown.</p>
+      <p>Given cells are locked. Use Auto-check to catch mistakes as you go.</p>
+    </details>
+
+    <div class="toolbar">
+      <span id="mistake-chip" class="stat-chip">Mistakes: 0</span>
+      <label class="stat-chip"><input type="checkbox" id="auto-check-toggle" checked> Auto-check</label>
+    </div>
+
+    <div id="board"></div>
+
+    <div class="toolbar">
+      <button id="undo-btn" class="btn btn-secondary">Undo</button>
+      <button id="hint-btn" class="btn btn-secondary">Hint</button>
+      <button id="new-game-btn" class="btn btn-primary">New Game</button>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zip — Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23ff7a00%22/></svg>">
+  <link rel="stylesheet" href="../shared/css/tokens.css">
+  <link rel="stylesheet" href="../shared/css/base.css">
+  <link rel="stylesheet" href="../shared/css/components.css">
+  <link rel="stylesheet" href="../shared/css/responsive.css">
+  <link rel="stylesheet" href="zip.css">
+</head>
+<body class="game-page">
+  <header class="li-header">
+    <a class="brand" href="../">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="crumb">/ Zip</span>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">✕</a>
+  </header>
+
+  <main>
+    <div class="game-title-row">
+      <h1>⚡ Zip</h1>
+      <p class="blurb">Draw one continuous path through every cell, hitting the numbered dots in order.</p>
+    </div>
+
+    <details class="how-to-play">
+      <summary>How to play</summary>
+      <p>Press and drag from dot 1 through orthogonally adjacent cells (up, down, left, right — no diagonals) to draw a single path that fills the whole grid. You must reach dots 2, 3, 4… in ascending order along the way; the last dot must be the final cell. Bold lines between cells are walls — the path can never cross them, so route around instead. Drag back onto your previous cell to undo a step. Release to pause; press the end of your path again to keep going.</p>
+    </details>
+
+    <div class="toolbar">
+      <span id="progress-chip" class="stat-chip">0 / 49</span>
+    </div>
+
+    <div id="board"></div>
+
+    <div class="toolbar">
+      <button id="undo-btn" class="btn btn-secondary">Undo</button>
+      <button id="hint-btn" class="btn btn-secondary">Hint</button>
+      <button id="new-game-btn" class="btn btn-primary">New Game</button>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

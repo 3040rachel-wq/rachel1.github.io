@@ -92,11 +92,23 @@ function carveGivens(solution, markers, rng) {
   }
 
   // Markers alone might already pin the grid down uniquely.
-  if (countSolutions(puzzleGrid(), markers, 2) === 1) return givenMask;
+  if (countSolutions(puzzleGrid(), markers, 2) !== 1) {
+    for (const [r, c] of order) {
+      givenMask[r][c] = true;
+      if (countSolutions(puzzleGrid(), markers, 2) === 1) break;
+    }
+  }
 
-  for (const [r, c] of order) {
-    givenMask[r][c] = true;
-    if (countSolutions(puzzleGrid(), markers, 2) === 1) break;
+  // Minimize: in random order, try dropping each given and keep the drop if
+  // the puzzle is still uniquely solvable without it. Random fill order
+  // above can overshoot the true minimum needed, so this pass trims back
+  // toward a lean given-count while never sacrificing uniqueness.
+  for (const [r, c] of shuffle(order, rng)) {
+    if (!givenMask[r][c]) continue;
+    givenMask[r][c] = false;
+    if (countSolutions(puzzleGrid(), markers, 2) !== 1) {
+      givenMask[r][c] = true;
+    }
   }
 
   return givenMask;

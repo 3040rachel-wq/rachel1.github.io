@@ -11,6 +11,7 @@ const input = document.getElementById('guess-input');
 const newGameBtn = document.getElementById('new-game-btn');
 
 const rng = makeRng();
+let PINPOINT_DATA = [];
 let puzzle = null;
 let clueIndex = 0; // number of clues currently revealed - 1 (0-based index of latest clue)
 let over = false;
@@ -114,7 +115,6 @@ function submitGuess(e) {
 form.addEventListener('submit', submitGuess);
 newGameBtn.addEventListener('click', loadPuzzle);
 
-let PINPOINT_DATA = [];
 fetch('data/pinpoint.json')
   .then((r) => r.json())
   .then((data) => {
