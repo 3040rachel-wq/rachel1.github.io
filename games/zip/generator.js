@@ -139,10 +139,17 @@ export function generate(rng, size = SIZE) {
     // checkpoint order by construction and walls were only placed on
     // non-solution edges. If this ever fails it signals a generator bug
     // rather than a genuinely unsolvable puzzle, so we simply retry.
-    const check = solve(size, checkpoints, walls, { nodeBudget: 200000, wantSecond: true });
-    if (check.solution) {
-      return { size, path, checkpoints, walls };
-    }
+    const check = solve(size, checkpoints, walls, { nodeBudget: 200000, wantSecond: false });
+    if (!check.solution) continue;
+
+    // Opportunistic uniqueness probe (small budget, best-effort): looks
+    // for a second distinct solution. Per project scope this is never
+    // required to succeed — exceeding the budget without finding one is
+    // treated as "probably fine" rather than a failure, so we accept the
+    // puzzle either way and just record what we learned.
+    const probe = solve(size, checkpoints, walls, { nodeBudget: 20000, wantSecond: true });
+
+    return { size, path, checkpoints, walls, hadAlternateSolution: probe.secondFound };
   }
   throw new Error('Zip generator: failed to build a solvable puzzle after 20 attempts');
 }
