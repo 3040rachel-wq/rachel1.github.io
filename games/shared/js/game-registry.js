@@ -1,0 +1,68 @@
+// Single source of truth for the games hub. To add a 9th game later:
+// build its folder, then add one entry here — nothing else to touch.
+export const GAMES = [
+  {
+    id: 'queens',
+    title: 'Queens',
+    path: 'queens/',
+    icon: '♛',
+    accent: 'var(--accent-queens)',
+    blurb: 'One crown per row, column & color region — none touching.',
+  },
+  {
+    id: 'tango',
+    title: 'Tango',
+    path: 'tango/',
+    icon: '☯',
+    accent: 'var(--accent-tango-sun)',
+    blurb: 'Balance the suns and moons. No three in a row.',
+  },
+  {
+    id: 'zip',
+    title: 'Zip',
+    path: 'zip/',
+    icon: '⚡',
+    accent: 'var(--accent-zip)',
+    blurb: 'Connect the dots in one continuous path through every cell.',
+  },
+  {
+    id: 'sudoku',
+    title: 'Mini Sudoku',
+    path: 'sudoku/',
+    icon: '⚏',
+    accent: 'var(--accent-sudoku)',
+    blurb: 'A bite-sized 6×6 sudoku. Every digit, once each.',
+  },
+  {
+    id: 'patches',
+    title: 'Patches',
+    path: 'patches/',
+    icon: '▦',
+    accent: 'var(--accent-patches)',
+    blurb: 'Carve the grid into rectangles, one clue per patch.',
+  },
+  {
+    id: 'crossclimb',
+    title: 'Crossclimb',
+    path: 'crossclimb/',
+    icon: '🪜',
+    accent: 'var(--accent-crossclimb)',
+    blurb: 'Climb a word ladder, one letter change at a time.',
+  },
+  {
+    id: 'pinpoint',
+    title: 'Pinpoint',
+    path: 'pinpoint/',
+    icon: '🎯',
+    accent: 'var(--accent-pinpoint)',
+    blurb: 'Name the category in as few clues as possible.',
+  },
+  {
+    id: 'wend',
+    title: 'Wend',
+    path: 'wend/',
+    icon: '🧵',
+    accent: 'var(--accent-wend)',
+    blurb: 'Wind through every tile spelling four hidden words.',
+  },
+];

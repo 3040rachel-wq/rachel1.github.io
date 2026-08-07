@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games</title>
+  <meta name="description" content="Play LinkedIn-style puzzle games any time — no daily limit.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a66c2%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22>G</text></svg>">
+  <link rel="stylesheet" href="shared/css/tokens.css">
+  <link rel="stylesheet" href="shared/css/base.css">
+  <link rel="stylesheet" href="shared/css/components.css">
+  <link rel="stylesheet" href="shared/css/responsive.css">
+  <link rel="stylesheet" href="hub.css">
+</head>
+<body>
+  <header class="li-header">
+    <a class="brand" href="./">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">← Back to site</a>
+  </header>
+
+  <section class="hub-hero">
+    <h1>Play, any time.</h1>
+    <p>All the puzzles you know, none of the daily limit. Every game generates a fresh puzzle whenever you want one.</p>
+  </section>
+
+  <main id="game-grid" class="game-grid" aria-label="Games list"></main>
+
+  <footer class="hub-footer">
+    <p>Fan-made recreation for personal, non-commercial use — not affiliated with or endorsed by LinkedIn.</p>
+  </footer>
+
+  <script type="module">
+    import { GAMES } from './shared/js/game-registry.js';
+    import { el } from './shared/js/dom.js';
+
+    const grid = document.getElementById('game-grid');
+    for (const game of GAMES) {
+      const card = el('a', { class: 'game-card', href: game.path, style: `--card-accent:${game.accent}` }, [
+        el('div', { class: 'icon', text: game.icon }),
+        el('h3', { text: game.title }),
+        el('p', { text: game.blurb }),
+        el('span', { class: 'btn btn-primary', text: 'Play' }),
+      ]);
+      grid.appendChild(card);
+    }
+  </script>
+</body>
+</html>
