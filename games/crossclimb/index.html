@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crossclimb — Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a66c2%22/></svg>">
+  <link rel="stylesheet" href="../shared/css/tokens.css">
+  <link rel="stylesheet" href="../shared/css/base.css">
+  <link rel="stylesheet" href="../shared/css/components.css">
+  <link rel="stylesheet" href="../shared/css/responsive.css">
+  <link rel="stylesheet" href="crossclimb.css">
+</head>
+<body class="game-page">
+  <header class="li-header">
+    <a class="brand" href="../">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="crumb">/ Crossclimb</span>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">✕</a>
+  </header>
+
+  <main>
+    <div class="game-title-row">
+      <h1>🪜 Crossclimb</h1>
+      <p class="blurb">Climb a word ladder, one letter change at a time.</p>
+    </div>
+
+    <details class="how-to-play">
+      <summary>How to play</summary>
+      <p>Answer the 5 clues to fill the middle of the ladder. Then reorder the 5 words (using the arrows) so each one differs from its neighbor by exactly one letter. Finally, solve the combined clue to unlock the two locked words at the top and bottom.</p>
+    </details>
+
+    <p id="phase-label" class="phase-label"></p>
+    <div id="ladder" class="ladder"></div>
+    <div id="combo-box" class="combo-box" style="display:none;"></div>
+
+    <div class="toolbar">
+      <button id="new-game-btn" class="btn btn-primary">New Game</button>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
