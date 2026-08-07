@@ -5,7 +5,7 @@ export const GAMES = [
     id: 'queens',
     title: 'Queens',
     path: 'queens/',
-    icon: '♛',
+    icon: '👑',
     accent: 'var(--accent-queens)',
     blurb: 'One crown per row, column & color region — none touching.',
   },

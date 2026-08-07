@@ -36,7 +36,7 @@ export function renderBoard(container, state, { onSelect }) {
       let glyph = '';
       let label = `Row ${r + 1} column ${c + 1}, empty`;
       if (val === CROWN) {
-        glyph = '♛';
+        glyph = '👑';
         classes.push('crown');
         label = `Row ${r + 1} column ${c + 1}, crown`;
       } else if (val === MARK_X) {
