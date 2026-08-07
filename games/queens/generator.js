@@ -68,21 +68,21 @@ function growRegions(crowns, rng) {
 
 // Known-good 8x8 puzzle used only if randomized generation somehow keeps
 // failing to find a unique-solution layout (shouldn't happen in practice —
-// verified unique via countSolutions at module load time is unnecessary
-// since this is fixed data, but it was confirmed unique when authored).
-const FALLBACK_SOLUTION = [
-  { r: 0, c: 3 }, { r: 1, c: 6 }, { r: 2, c: 0 }, { r: 3, c: 2 },
-  { r: 4, c: 5 }, { r: 5, c: 7 }, { r: 6, c: 1 }, { r: 7, c: 4 },
-];
+// this is a real generate() output, confirmed to have exactly one solution
+// via countSolutions when authored).
 const FALLBACK_REGION_GRID = [
-  [2, 2, 2, 0, 0, 1, 1, 1],
-  [2, 2, 2, 0, 0, 0, 1, 1],
-  [2, 2, 2, 2, 3, 3, 1, 1],
-  [2, 2, 3, 3, 3, 3, 1, 1],
-  [4, 4, 3, 3, 3, 5, 5, 1],
-  [4, 4, 4, 3, 5, 5, 5, 7],
-  [4, 6, 6, 3, 3, 5, 7, 7],
-  [6, 6, 6, 6, 3, 5, 7, 7],
+  [1, 1, 1, 1, 1, 0, 0, 0],
+  [1, 1, 1, 1, 1, 0, 0, 0],
+  [1, 1, 1, 2, 2, 2, 2, 0],
+  [1, 1, 1, 2, 2, 2, 3, 3],
+  [1, 1, 1, 6, 4, 2, 2, 3],
+  [5, 5, 5, 6, 6, 2, 2, 3],
+  [5, 5, 6, 6, 6, 2, 3, 3],
+  [7, 5, 6, 6, 6, 2, 2, 3],
+];
+const FALLBACK_SOLUTION = [
+  { r: 0, c: 6 }, { r: 1, c: 2 }, { r: 2, c: 5 }, { r: 3, c: 7 },
+  { r: 4, c: 4 }, { r: 5, c: 1 }, { r: 6, c: 3 }, { r: 7, c: 0 },
 ];
 
 function fallbackPuzzle() {
