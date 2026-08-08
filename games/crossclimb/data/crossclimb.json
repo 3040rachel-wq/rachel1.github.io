@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "cc-001",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Without light",
+        "answer": "DARK"
+      },
+      {
+        "clue": "Concern or caution",
+        "answer": "CARE"
+      },
+      {
+        "clue": "Challenge to do something risky",
+        "answer": "DARE"
+      },
+      {
+        "clue": "Wheeled container for hauling",
+        "answer": "CART"
+      },
+      {
+        "clue": "Playing or credit item",
+        "answer": "CARD"
+      }
+    ],
+    "correctOrder": [
+      "DARK",
+      "DARE",
+      "CARE",
+      "CART",
+      "CARD"
+    ],
+    "topWord": "BARK",
+    "bottomWord": "WARD",
+    "comboClue": "Top: “Tree's outer covering, or a dog's sound” — Bottom: “Hospital section”"
+  },
+  {
+    "id": "cc-002",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Decayed plant matter used as fuel",
+        "answer": "PEAT"
+      },
+      {
+        "clue": "A sweet fruit",
+        "answer": "PEAR"
+      },
+      {
+        "clue": "The highest point",
+        "answer": "PEAK"
+      },
+      {
+        "clue": "To recover from injury",
+        "answer": "HEAL"
+      },
+      {
+        "clue": "To perceive sound",
+        "answer": "HEAR"
+      }
+    ],
+    "correctOrder": [
+      "PEAT",
+      "PEAK",
+      "PEAR",
+      "HEAR",
+      "HEAL"
+    ],
+    "topWord": "MEAT",
+    "bottomWord": "MEAL",
+    "comboClue": "Top: “Animal flesh eaten as food” — Bottom: “Breakfast, lunch, or dinner”"
+  },
+  {
+    "id": "cc-003",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "Shelter from sunlight",
+        "answer": "SHADE"
+      },
+      {
+        "clue": "A type of sedimentary rock",
+        "answer": "SHALE"
+      },
+      {
+        "clue": "To tremble or move quickly",
+        "answer": "SHAKE"
+      },
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      },
+      {
+        "clue": "The form of something",
+        "answer": "SHAPE"
+      }
+    ],
+    "correctOrder": [
+      "SHALE",
+      "SHADE",
+      "SHARE",
+      "SHAKE",
+      "SHAPE"
+    ],
+    "topWord": "SHAME",
+    "bottomWord": "SHAVE",
+    "comboClue": "Top: “A feeling of guilt or embarrassment” — Bottom: “To remove hair with a blade”"
+  },
+  {
+    "id": "cc-004",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "A calendar day, or a romantic outing",
+        "answer": "DATE"
+      },
+      {
+        "clue": "A light sleep",
+        "answer": "DOZE"
+      },
+      {
+        "clue": "A measured amount of medicine",
+        "answer": "DOSE"
+      },
+      {
+        "clue": "A state of confusion",
+        "answer": "DAZE"
+      },
+      {
+        "clue": "Destiny",
+        "answer": "FATE"
+      }
+    ],
+    "correctOrder": [
+      "DOSE",
+      "DOZE",
+      "DAZE",
+      "DATE",
+      "FATE"
+    ],
+    "topWord": "POSE",
+    "bottomWord": "GATE",
+    "comboClue": "Top: “To strike a stance for a photo” — Bottom: “An entrance barrier”"
+  },
+  {
+    "id": "cc-005",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "To jab with a finger",
+        "answer": "POKE"
+      },
+      {
+        "clue": "A flat piece used for flooring",
+        "answer": "TILE"
+      },
+      {
+        "clue": "A unit of distance",
+        "answer": "MILE"
+      },
+      {
+        "clue": "A long, thin rod",
+        "answer": "POLE"
+      },
+      {
+        "clue": "A small burrowing mammal, or a spy",
+        "answer": "MOLE"
+      }
+    ],
+    "correctOrder": [
+      "POKE",
+      "POLE",
+      "MOLE",
+      "MILE",
+      "TILE"
+    ],
+    "topWord": "POSE",
+    "bottomWord": "TIME",
+    "comboClue": "Top: “To strike a stance for a photo” — Bottom: “What a clock measures”"
+  },
+  {
+    "id": "cc-006",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "To frighten",
+        "answer": "SCARE"
+      },
+      {
+        "clue": "A digging tool, or a card suit",
+        "answer": "SPADE"
+      },
+      {
+        "clue": "The universe beyond Earth, or room",
+        "answer": "SPACE"
+      },
+      {
+        "clue": "Extra, or to save from harm",
+        "answer": "SPARE"
+      },
+      {
+        "clue": "A flavorful seasoning",
+        "answer": "SPICE"
+      }
+    ],
+    "correctOrder": [
+      "SPICE",
+      "SPACE",
+      "SPADE",
+      "SPARE",
+      "SCARE"
+    ],
+    "topWord": "SLICE",
+    "bottomWord": "SCORE",
+    "comboClue": "Top: “A thin piece cut from something” — Bottom: “Points earned in a game”"
+  },
+  {
+    "id": "cc-007",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "A bundle of hay",
+        "answer": "BALE"
+      },
+      {
+        "clue": "A calendar day, or a romantic outing",
+        "answer": "DATE"
+      },
+      {
+        "clue": "A state of confusion",
+        "answer": "DAZE"
+      },
+      {
+        "clue": "A strong wind",
+        "answer": "GALE"
+      },
+      {
+        "clue": "An entrance barrier",
+        "answer": "GATE"
+      }
+    ],
+    "correctOrder": [
+      "BALE",
+      "GALE",
+      "GATE",
+      "DATE",
+      "DAZE"
+    ],
+    "topWord": "BALL",
+    "bottomWord": "DARE",
+    "comboClue": "Top: “Round object used in sports” — Bottom: “Challenge to do something risky”"
+  },
+  {
+    "id": "cc-008",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "To drill, or to be tedious",
+        "answer": "BORE"
+      },
+      {
+        "clue": "Blood from violence",
+        "answer": "GORE"
+      },
+      {
+        "clue": "A bundle of hay",
+        "answer": "BALE"
+      },
+      {
+        "clue": "Painful to the touch",
+        "answer": "SORE"
+      },
+      {
+        "clue": "Uncovered, naked",
+        "answer": "BARE"
+      }
+    ],
+    "correctOrder": [
+      "SORE",
+      "GORE",
+      "BORE",
+      "BARE",
+      "BALE"
+    ],
+    "topWord": "CORE",
+    "bottomWord": "GALE",
+    "comboClue": "Top: “Central part” — Bottom: “A strong wind”"
+  },
+  {
+    "id": "cc-009",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "A predatory ocean fish",
+        "answer": "SHARK"
+      },
+      {
+        "clue": "A small fiery particle",
+        "answer": "SPARK"
+      },
+      {
+        "clue": "The universe beyond Earth, or room",
+        "answer": "SPACE"
+      },
+      {
+        "clue": "Extra, or to save from harm",
+        "answer": "SPARE"
+      },
+      {
+        "clue": "A flavorful seasoning",
+        "answer": "SPICE"
+      }
+    ],
+    "correctOrder": [
+      "SPICE",
+      "SPACE",
+      "SPARE",
+      "SPARK",
+      "SHARK"
+    ],
+    "topWord": "SLICE",
+    "bottomWord": "SHARE",
+    "comboClue": "Top: “A thin piece cut from something” — Bottom: “To divide among others”"
+  },
+  {
+    "id": "cc-010",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Moderately hot",
+        "answer": "WARM"
+      },
+      {
+        "clue": "Farm building for animals",
+        "answer": "BARN"
+      },
+      {
+        "clue": "Alert to danger",
+        "answer": "WARN"
+      },
+      {
+        "clue": "Hospital section",
+        "answer": "WARD"
+      },
+      {
+        "clue": "Unit of language",
+        "answer": "WORD"
+      }
+    ],
+    "correctOrder": [
+      "WORD",
+      "WARD",
+      "WARM",
+      "WARN",
+      "BARN"
+    ],
+    "topWord": "CORD",
+    "bottomWord": "BARK",
+    "comboClue": "Top: “Thick string” — Bottom: “Tree's outer covering, or a dog's sound”"
+  },
+  {
+    "id": "cc-011",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Animal flesh eaten as food",
+        "answer": "MEAT"
+      },
+      {
+        "clue": "To recover from injury",
+        "answer": "HEAL"
+      },
+      {
+        "clue": "High temperature",
+        "answer": "HEAT"
+      },
+      {
+        "clue": "Breakfast, lunch, or dinner",
+        "answer": "MEAL"
+      },
+      {
+        "clue": "To perceive sound",
+        "answer": "HEAR"
+      }
+    ],
+    "correctOrder": [
+      "HEAR",
+      "HEAT",
+      "HEAL",
+      "MEAL",
+      "MEAT"
+    ],
+    "topWord": "HEAD",
+    "bottomWord": "MELT",
+    "comboClue": "Top: “Top part of the body” — Bottom: “Turn from solid to liquid”"
+  },
+  {
+    "id": "cc-012",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "A feeling of guilt or embarrassment",
+        "answer": "SHAME"
+      },
+      {
+        "clue": "To remove hair with a blade",
+        "answer": "SHAVE"
+      },
+      {
+        "clue": "To tremble or move quickly",
+        "answer": "SHAKE"
+      },
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      },
+      {
+        "clue": "Shelter from sunlight",
+        "answer": "SHADE"
+      }
+    ],
+    "correctOrder": [
+      "SHADE",
+      "SHAME",
+      "SHARE",
+      "SHAVE",
+      "SHAKE"
+    ],
+    "topWord": "SHAPE",
+    "bottomWord": "STAKE",
+    "comboClue": "Top: “The form of something” — Bottom: “A pointed post, or a bet”"
+  },
+  {
+    "id": "cc-013",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "What a clock measures",
+        "answer": "TIME"
+      },
+      {
+        "clue": "To eat a meal",
+        "answer": "DINE"
+      },
+      {
+        "clue": "A climbing plant",
+        "answer": "VINE"
+      },
+      {
+        "clue": "Alcoholic drink from grapes",
+        "answer": "WINE"
+      },
+      {
+        "clue": "A ten-cent coin",
+        "answer": "DIME"
+      }
+    ],
+    "correctOrder": [
+      "WINE",
+      "VINE",
+      "DINE",
+      "DIME",
+      "TIME"
+    ],
+    "topWord": "LINE",
+    "bottomWord": "TIDE",
+    "comboClue": "Top: “A straight mark” — Bottom: “Rise and fall of the sea”"
+  },
+  {
+    "id": "cc-014",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Moderately hot",
+        "answer": "WARM"
+      },
+      {
+        "clue": "Unit of language",
+        "answer": "WORD"
+      },
+      {
+        "clue": "Alert to danger",
+        "answer": "WARN"
+      },
+      {
+        "clue": "Farm building for animals",
+        "answer": "BARN"
+      },
+      {
+        "clue": "Hospital section",
+        "answer": "WARD"
+      }
+    ],
+    "correctOrder": [
+      "BARN",
+      "WARN",
+      "WARM",
+      "WARD",
+      "WORD"
+    ],
+    "topWord": "BARK",
+    "bottomWord": "CORD",
+    "comboClue": "Top: “Tree's outer covering, or a dog's sound” — Bottom: “Thick string”"
+  },
+  {
+    "id": "cc-015",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      },
+      {
+        "clue": "The form of something",
+        "answer": "SHAPE"
+      },
+      {
+        "clue": "Shelter from sunlight",
+        "answer": "SHADE"
+      },
+      {
+        "clue": "A type of sedimentary rock",
+        "answer": "SHALE"
+      },
+      {
+        "clue": "To remove hair with a blade",
+        "answer": "SHAVE"
+      }
+    ],
+    "correctOrder": [
+      "SHALE",
+      "SHAVE",
+      "SHAPE",
+      "SHARE",
+      "SHADE"
+    ],
+    "topWord": "SHAME",
+    "bottomWord": "SHAKE",
+    "comboClue": "Top: “A feeling of guilt or embarrassment” — Bottom: “To tremble or move quickly”"
+  },
+  {
+    "id": "cc-016",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Tree's outer covering, or a dog's sound",
+        "answer": "BARK"
+      },
+      {
+        "clue": "A state of confusion",
+        "answer": "DAZE"
+      },
+      {
+        "clue": "A light sleep",
+        "answer": "DOZE"
+      },
+      {
+        "clue": "Challenge to do something risky",
+        "answer": "DARE"
+      },
+      {
+        "clue": "Uncovered, naked",
+        "answer": "BARE"
+      }
+    ],
+    "correctOrder": [
+      "DOZE",
+      "DAZE",
+      "DARE",
+      "BARE",
+      "BARK"
+    ],
+    "topWord": "DOSE",
+    "bottomWord": "BARN",
+    "comboClue": "Top: “A measured amount of medicine” — Bottom: “Farm building for animals”"
+  },
+  {
+    "id": "cc-017",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Destiny",
+        "answer": "FATE"
+      },
+      {
+        "clue": "Angry, or a strong smell",
+        "answer": "FUME"
+      },
+      {
+        "clue": "A calendar day, or a romantic outing",
+        "answer": "DATE"
+      },
+      {
+        "clue": "Widespread recognition",
+        "answer": "FAME"
+      },
+      {
+        "clue": "Challenge to do something risky",
+        "answer": "DARE"
+      }
+    ],
+    "correctOrder": [
+      "FUME",
+      "FAME",
+      "FATE",
+      "DATE",
+      "DARE"
+    ],
+    "topWord": "FUSE",
+    "bottomWord": "BARE",
+    "comboClue": "Top: “Safety device that breaks a circuit” — Bottom: “Uncovered, naked”"
+  },
+  {
+    "id": "cc-018",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "Extra, or to save from harm",
+        "answer": "SPARE"
+      },
+      {
+        "clue": "A predatory ocean fish",
+        "answer": "SHARK"
+      },
+      {
+        "clue": "A small fiery particle",
+        "answer": "SPARK"
+      },
+      {
+        "clue": "The universe beyond Earth, or room",
+        "answer": "SPACE"
+      },
+      {
+        "clue": "A digging tool, or a card suit",
+        "answer": "SPADE"
+      }
+    ],
+    "correctOrder": [
+      "SPADE",
+      "SPACE",
+      "SPARE",
+      "SPARK",
+      "SHARK"
+    ],
+    "topWord": "SHADE",
+    "bottomWord": "SHARE",
+    "comboClue": "Top: “Shelter from sunlight” — Bottom: “To divide among others”"
+  },
+  {
+    "id": "cc-019",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "To eat a meal",
+        "answer": "DINE"
+      },
+      {
+        "clue": "A green citrus fruit",
+        "answer": "LIME"
+      },
+      {
+        "clue": "A straight mark",
+        "answer": "LINE"
+      },
+      {
+        "clue": "What a clock measures",
+        "answer": "TIME"
+      },
+      {
+        "clue": "Alcoholic drink from grapes",
+        "answer": "WINE"
+      }
+    ],
+    "correctOrder": [
+      "TIME",
+      "LIME",
+      "LINE",
+      "WINE",
+      "DINE"
+    ],
+    "topWord": "TILE",
+    "bottomWord": "DIME",
+    "comboClue": "Top: “A flat piece used for flooring” — Bottom: “A ten-cent coin”"
+  },
+  {
+    "id": "cc-020",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Widespread recognition",
+        "answer": "FAME"
+      },
+      {
+        "clue": "To gradually disappear",
+        "answer": "FADE"
+      },
+      {
+        "clue": "Destiny",
+        "answer": "FATE"
+      },
+      {
+        "clue": "An entrance barrier",
+        "answer": "GATE"
+      },
+      {
+        "clue": "A calendar day, or a romantic outing",
+        "answer": "DATE"
+      }
+    ],
+    "correctOrder": [
+      "DATE",
+      "GATE",
+      "FATE",
+      "FAME",
+      "FADE"
+    ],
+    "topWord": "DAZE",
+    "bottomWord": "FACE",
+    "comboClue": "Top: “A state of confusion” — Bottom: “Front part of the head”"
+  },
+  {
+    "id": "cc-021",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "The form of something",
+        "answer": "SHAPE"
+      },
+      {
+        "clue": "A digging tool, or a card suit",
+        "answer": "SPADE"
+      },
+      {
+        "clue": "To remove hair with a blade",
+        "answer": "SHAVE"
+      },
+      {
+        "clue": "Shelter from sunlight",
+        "answer": "SHADE"
+      },
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      }
+    ],
+    "correctOrder": [
+      "SHARE",
+      "SHAPE",
+      "SHAVE",
+      "SHADE",
+      "SPADE"
+    ],
+    "topWord": "SHAKE",
+    "bottomWord": "SPARE",
+    "comboClue": "Top: “To tremble or move quickly” — Bottom: “Extra, or to save from harm”"
+  },
+  {
+    "id": "cc-022",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "A small body of water",
+        "answer": "POND"
+      },
+      {
+        "clue": "Curved, not straight",
+        "answer": "BENT"
+      },
+      {
+        "clue": "To curve",
+        "answer": "BEND"
+      },
+      {
+        "clue": "A musical group, or a strip",
+        "answer": "BAND"
+      },
+      {
+        "clue": "A connection, or a financial security",
+        "answer": "BOND"
+      }
+    ],
+    "correctOrder": [
+      "BENT",
+      "BEND",
+      "BAND",
+      "BOND",
+      "POND"
+    ],
+    "topWord": "GENT",
+    "bottomWord": "FOND",
+    "comboClue": "Top: “A gentleman” — Bottom: “Having affection for”"
+  },
+  {
+    "id": "cc-023",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Place where crops are grown",
+        "answer": "FARM"
+      },
+      {
+        "clue": "Shape, or a document",
+        "answer": "FORM"
+      },
+      {
+        "clue": "Utensil with prongs",
+        "answer": "FORK"
+      },
+      {
+        "clue": "Alert to danger",
+        "answer": "WARN"
+      },
+      {
+        "clue": "Moderately hot",
+        "answer": "WARM"
+      }
+    ],
+    "correctOrder": [
+      "FORK",
+      "FORM",
+      "FARM",
+      "WARM",
+      "WARN"
+    ],
+    "topWord": "CORK",
+    "bottomWord": "BARN",
+    "comboClue": "Top: “Stopper for a bottle” — Bottom: “Farm building for animals”"
+  },
+  {
+    "id": "cc-024",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "To frighten",
+        "answer": "SCARE"
+      },
+      {
+        "clue": "A digging tool, or a card suit",
+        "answer": "SPADE"
+      },
+      {
+        "clue": "No longer fresh",
+        "answer": "STALE"
+      },
+      {
+        "clue": "Extra, or to save from harm",
+        "answer": "SPARE"
+      },
+      {
+        "clue": "A measuring instrument, or fish skin",
+        "answer": "SCALE"
+      }
+    ],
+    "correctOrder": [
+      "SPADE",
+      "SPARE",
+      "SCARE",
+      "SCALE",
+      "STALE"
+    ],
+    "topWord": "SPACE",
+    "bottomWord": "STARE",
+    "comboClue": "Top: “The universe beyond Earth, or room” — Bottom: “To look fixedly”"
+  },
+  {
+    "id": "cc-025",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "What a clock measures",
+        "answer": "TIME"
+      },
+      {
+        "clue": "A specific place or location",
+        "answer": "SITE"
+      },
+      {
+        "clue": "Rise and fall of the sea",
+        "answer": "TIDE"
+      },
+      {
+        "clue": "One face or edge of something",
+        "answer": "SIDE"
+      },
+      {
+        "clue": "To travel on a vehicle",
+        "answer": "RIDE"
+      }
+    ],
+    "correctOrder": [
+      "SITE",
+      "SIDE",
+      "RIDE",
+      "TIDE",
+      "TIME"
+    ],
+    "topWord": "SIRE",
+    "bottomWord": "LIME",
+    "comboClue": "Top: “A male parent animal” — Bottom: “A green citrus fruit”"
+  },
+  {
+    "id": "cc-026",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Moving air",
+        "answer": "WIND"
+      },
+      {
+        "clue": "Gentle, not intense",
+        "answer": "MILD"
+      },
+      {
+        "clue": "To locate",
+        "answer": "FIND"
+      },
+      {
+        "clue": "A unit of distance",
+        "answer": "MILE"
+      },
+      {
+        "clue": "Untamed, natural",
+        "answer": "WILD"
+      }
+    ],
+    "correctOrder": [
+      "FIND",
+      "WIND",
+      "WILD",
+      "MILD",
+      "MILE"
+    ],
+    "topWord": "FOND",
+    "bottomWord": "TILE",
+    "comboClue": "Top: “Having affection for” — Bottom: “A flat piece used for flooring”"
+  },
+  {
+    "id": "cc-027",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "To remove hair with a blade",
+        "answer": "SHAVE"
+      },
+      {
+        "clue": "To tremble or move quickly",
+        "answer": "SHAKE"
+      },
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      },
+      {
+        "clue": "A feeling of guilt or embarrassment",
+        "answer": "SHAME"
+      },
+      {
+        "clue": "Shelter from sunlight",
+        "answer": "SHADE"
+      }
+    ],
+    "correctOrder": [
+      "SHADE",
+      "SHAME",
+      "SHAVE",
+      "SHAKE",
+      "SHARE"
+    ],
+    "topWord": "SHAPE",
+    "bottomWord": "SHARK",
+    "comboClue": "Top: “The form of something” — Bottom: “A predatory ocean fish”"
+  },
+  {
+    "id": "cc-028",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Small watercraft",
+        "answer": "BOAT"
+      },
+      {
+        "clue": "A loud sound, or economic growth",
+        "answer": "BOOM"
+      },
+      {
+        "clue": "Footwear covering the ankle",
+        "answer": "BOOT"
+      },
+      {
+        "clue": "Rhythmic pulse, or to defeat",
+        "answer": "BEAT"
+      },
+      {
+        "clue": "Bound pages of text",
+        "answer": "BOOK"
+      }
+    ],
+    "correctOrder": [
+      "BEAT",
+      "BOAT",
+      "BOOT",
+      "BOOM",
+      "BOOK"
+    ],
+    "topWord": "HEAT",
+    "bottomWord": "COOK",
+    "comboClue": "Top: “High temperature” — Bottom: “To prepare food with heat”"
+  },
+  {
+    "id": "cc-029",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "To eat a meal",
+        "answer": "DINE"
+      },
+      {
+        "clue": "Rise and fall of the sea",
+        "answer": "TIDE"
+      },
+      {
+        "clue": "A ten-cent coin",
+        "answer": "DIME"
+      },
+      {
+        "clue": "What a clock measures",
+        "answer": "TIME"
+      },
+      {
+        "clue": "A flat piece used for flooring",
+        "answer": "TILE"
+      }
+    ],
+    "correctOrder": [
+      "TIDE",
+      "TILE",
+      "TIME",
+      "DIME",
+      "DINE"
+    ],
+    "topWord": "SIDE",
+    "bottomWord": "WINE",
+    "comboClue": "Top: “One face or edge of something” — Bottom: “Alcoholic drink from grapes”"
+  },
+  {
+    "id": "cc-030",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "A sticky, gooey substance",
+        "answer": "SLIME"
+      },
+      {
+        "clue": "To move smoothly across a surface",
+        "answer": "SLIDE"
+      },
+      {
+        "clue": "A flavorful seasoning",
+        "answer": "SPICE"
+      },
+      {
+        "clue": "A thin piece cut from something",
+        "answer": "SLICE"
+      },
+      {
+        "clue": "The universe beyond Earth, or room",
+        "answer": "SPACE"
+      }
+    ],
+    "correctOrder": [
+      "SLIDE",
+      "SLIME",
+      "SLICE",
+      "SPICE",
+      "SPACE"
+    ],
+    "topWord": "GLIDE",
+    "bottomWord": "SPARE",
+    "comboClue": "Top: “To move smoothly through the air” — Bottom: “Extra, or to save from harm”"
+  },
+  {
+    "id": "cc-031",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "A strong wind",
+        "answer": "GALE"
+      },
+      {
+        "clue": "An entrance barrier",
+        "answer": "GATE"
+      },
+      {
+        "clue": "A state of confusion",
+        "answer": "DAZE"
+      },
+      {
+        "clue": "A story",
+        "answer": "TALE"
+      },
+      {
+        "clue": "A calendar day, or a romantic outing",
+        "answer": "DATE"
+      }
+    ],
+    "correctOrder": [
+      "TALE",
+      "GALE",
+      "GATE",
+      "DATE",
+      "DAZE"
+    ],
+    "topWord": "TALL",
+    "bottomWord": "DOZE",
+    "comboClue": "Top: “Great height” — Bottom: “A light sleep”"
+  },
+  {
+    "id": "cc-032",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "A straight mark",
+        "answer": "LINE"
+      },
+      {
+        "clue": "Rise and fall of the sea",
+        "answer": "TIDE"
+      },
+      {
+        "clue": "A green citrus fruit",
+        "answer": "LIME"
+      },
+      {
+        "clue": "A climbing plant",
+        "answer": "VINE"
+      },
+      {
+        "clue": "What a clock measures",
+        "answer": "TIME"
+      }
+    ],
+    "correctOrder": [
+      "VINE",
+      "LINE",
+      "LIME",
+      "TIME",
+      "TIDE"
+    ],
+    "topWord": "DINE",
+    "bottomWord": "SIDE",
+    "comboClue": "Top: “To eat a meal” — Bottom: “One face or edge of something”"
+  },
+  {
+    "id": "cc-033",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "To remove hair with a blade",
+        "answer": "SHAVE"
+      },
+      {
+        "clue": "A type of sedimentary rock",
+        "answer": "SHALE"
+      },
+      {
+        "clue": "The form of something",
+        "answer": "SHAPE"
+      },
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      },
+      {
+        "clue": "To tremble or move quickly",
+        "answer": "SHAKE"
+      }
+    ],
+    "correctOrder": [
+      "SHALE",
+      "SHAPE",
+      "SHAKE",
+      "SHAVE",
+      "SHARE"
+    ],
+    "topWord": "SCALE",
+    "bottomWord": "SCARE",
+    "comboClue": "Top: “A measuring instrument, or fish skin” — Bottom: “To frighten”"
+  },
+  {
+    "id": "cc-034",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "An agreement",
+        "answer": "PACT"
+      },
+      {
+        "clue": "Wheeled container for hauling",
+        "answer": "CART"
+      },
+      {
+        "clue": "To choose",
+        "answer": "PICK"
+      },
+      {
+        "clue": "A group, or to fill a bag",
+        "answer": "PACK"
+      },
+      {
+        "clue": "A portion of a whole",
+        "answer": "PART"
+      }
+    ],
+    "correctOrder": [
+      "CART",
+      "PART",
+      "PACT",
+      "PACK",
+      "PICK"
+    ],
+    "topWord": "CARE",
+    "bottomWord": "PINK",
+    "comboClue": "Top: “Concern or caution” — Bottom: “A light red color”"
+  },
+  {
+    "id": "cc-035",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Rise and fall of the sea",
+        "answer": "TIDE"
+      },
+      {
+        "clue": "A flat piece used for flooring",
+        "answer": "TILE"
+      },
+      {
+        "clue": "A unit of distance",
+        "answer": "MILE"
+      },
+      {
+        "clue": "A long, thin rod",
+        "answer": "POLE"
+      },
+      {
+        "clue": "A small burrowing mammal, or a spy",
+        "answer": "MOLE"
+      }
+    ],
+    "correctOrder": [
+      "POLE",
+      "MOLE",
+      "MILE",
+      "TILE",
+      "TIDE"
+    ],
+    "topWord": "POSE",
+    "bottomWord": "RIDE",
+    "comboClue": "Top: “To strike a stance for a photo” — Bottom: “To travel on a vehicle”"
+  },
+  {
+    "id": "cc-036",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "Shelter from sunlight",
+        "answer": "SHADE"
+      },
+      {
+        "clue": "To divide among others",
+        "answer": "SHARE"
+      },
+      {
+        "clue": "Points earned in a game",
+        "answer": "SCORE"
+      },
+      {
+        "clue": "To frighten",
+        "answer": "SCARE"
+      },
+      {
+        "clue": "To remove hair with a blade",
+        "answer": "SHAVE"
+      }
+    ],
+    "correctOrder": [
+      "SHADE",
+      "SHAVE",
+      "SHARE",
+      "SCARE",
+      "SCORE"
+    ],
+    "topWord": "SHAME",
+    "bottomWord": "STORE",
+    "comboClue": "Top: “A feeling of guilt or embarrassment” — Bottom: “A shop, or to keep for later”"
+  },
+  {
+    "id": "cc-037",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Place where crops are grown",
+        "answer": "FARM"
+      },
+      {
+        "clue": "Moderately hot",
+        "answer": "WARM"
+      },
+      {
+        "clue": "Hospital section",
+        "answer": "WARD"
+      },
+      {
+        "clue": "Playing or credit item",
+        "answer": "CARD"
+      },
+      {
+        "clue": "Alert to danger",
+        "answer": "WARN"
+      }
+    ],
+    "correctOrder": [
+      "FARM",
+      "WARM",
+      "WARN",
+      "WARD",
+      "CARD"
+    ],
+    "topWord": "FORM",
+    "bottomWord": "CORD",
+    "comboClue": "Top: “Shape, or a document” — Bottom: “Thick string”"
+  },
+  {
+    "id": "cc-038",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "Hospital section",
+        "answer": "WARD"
+      },
+      {
+        "clue": "Stopper for a bottle",
+        "answer": "CORK"
+      },
+      {
+        "clue": "Moderately hot",
+        "answer": "WARM"
+      },
+      {
+        "clue": "Playing or credit item",
+        "answer": "CARD"
+      },
+      {
+        "clue": "Thick string",
+        "answer": "CORD"
+      }
+    ],
+    "correctOrder": [
+      "WARM",
+      "WARD",
+      "CARD",
+      "CORD",
+      "CORK"
+    ],
+    "topWord": "FARM",
+    "bottomWord": "COOK",
+    "comboClue": "Top: “Place where crops are grown” — Bottom: “To prepare food with heat”"
+  },
+  {
+    "id": "cc-039",
+    "wordLength": 5,
+    "middle": [
+      {
+        "clue": "A shop, or to keep for later",
+        "answer": "STORE"
+      },
+      {
+        "clue": "A measuring instrument, or fish skin",
+        "answer": "SCALE"
+      },
+      {
+        "clue": "A type of sedimentary rock",
+        "answer": "SHALE"
+      },
+      {
+        "clue": "To look fixedly",
+        "answer": "STARE"
+      },
+      {
+        "clue": "To frighten",
+        "answer": "SCARE"
+      }
+    ],
+    "correctOrder": [
+      "STORE",
+      "STARE",
+      "SCARE",
+      "SCALE",
+      "SHALE"
+    ],
+    "topWord": "SCORE",
+    "bottomWord": "SHAPE",
+    "comboClue": "Top: “Points earned in a game” — Bottom: “The form of something”"
+  },
+  {
+    "id": "cc-040",
+    "wordLength": 4,
+    "middle": [
+      {
+        "clue": "A strong wind",
+        "answer": "GALE"
+      },
+      {
+        "clue": "Destiny",
+        "answer": "FATE"
+      },
+      {
+        "clue": "An entrance barrier",
+        "answer": "GATE"
+      },
+      {
+        "clue": "Uncovered, naked",
+        "answer": "BARE"
+      },
+      {
+        "clue": "A bundle of hay",
+        "answer": "BALE"
+      }
+    ],
+    "correctOrder": [
+      "BARE",
+      "BALE",
+      "GALE",
+      "GATE",
+      "FATE"
+    ],
+    "topWord": "BARN",
+    "bottomWord": "DATE",
+    "comboClue": "Top: “Farm building for animals” — Bottom: “A calendar day, or a romantic outing”"
+  }
+]

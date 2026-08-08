@@ -1,0 +1,115 @@
+.ladder {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: min(92vw, 480px);
+}
+
+.rung {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--li-white);
+  border: 1px solid var(--li-gray-300);
+  border-radius: var(--radius-tile);
+  padding: 10px 12px;
+  box-shadow: var(--shadow-card);
+}
+.rung.locked {
+  background: var(--li-gray-100);
+  border-style: dashed;
+  color: var(--text-muted);
+  justify-content: center;
+  font-style: italic;
+}
+.rung.solved-move {
+  border-color: var(--accent-crossclimb);
+}
+.rung.link-ok {
+  box-shadow: 0 0 0 2px var(--ok) inset;
+}
+
+.rung .clue-text {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.rung input[type="text"] {
+  width: 110px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--li-gray-300);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tile-row {
+  display: flex;
+  gap: 4px;
+}
+.tile {
+  width: 30px;
+  height: 34px;
+  border-radius: 4px;
+  background: var(--li-blue-tint);
+  color: var(--li-blue-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.reorder-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.reorder-controls button {
+  width: 28px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid var(--li-gray-300);
+  background: var(--li-white);
+  font-size: 0.75rem;
+}
+.reorder-controls button:disabled {
+  opacity: 0.3;
+}
+
+.combo-box {
+  background: var(--li-white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-3);
+  text-align: center;
+  width: min(92vw, 480px);
+}
+.combo-box .combo-clue {
+  color: var(--text-muted);
+  margin-bottom: var(--space-2);
+}
+.combo-inputs {
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+}
+.combo-inputs input {
+  width: 120px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--li-gray-300);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.phase-label {
+  font-weight: 600;
+  color: var(--accent-crossclimb);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

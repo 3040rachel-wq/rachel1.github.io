@@ -1,0 +1,44 @@
+.queens-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  width: min(90vw, 420px);
+  aspect-ratio: 1;
+  background: var(--li-white);
+  border: 3px solid var(--li-gray-900);
+  border-radius: var(--radius-tile);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.queens-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: clamp(1rem, 4.5vw, 1.5rem);
+  line-height: 1;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: var(--li-gray-900);
+  user-select: none;
+  touch-action: manipulation;
+}
+.queens-cell.mark {
+  color: var(--li-gray-600);
+  font-weight: 400;
+  font-size: clamp(0.9rem, 3.5vw, 1.2rem);
+}
+.queens-cell.selected {
+  outline: 2px solid var(--li-blue);
+  outline-offset: -2px;
+}
+.queens-cell.conflict {
+  box-shadow: inset 0 0 0 999px rgba(192, 57, 43, 0.35);
+  color: var(--danger);
+}
+
+.toolbar .stat-chip input[type="checkbox"] {
+  margin-right: var(--space-1);
+  vertical-align: middle;
+}

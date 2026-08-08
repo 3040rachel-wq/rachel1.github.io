@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patches — Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232e8b57%22/></svg>">
+  <link rel="stylesheet" href="../shared/css/tokens.css">
+  <link rel="stylesheet" href="../shared/css/base.css">
+  <link rel="stylesheet" href="../shared/css/components.css">
+  <link rel="stylesheet" href="../shared/css/responsive.css">
+  <link rel="stylesheet" href="patches.css">
+</head>
+<body class="game-page">
+  <header class="li-header">
+    <a class="brand" href="../">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="crumb">/ Patches</span>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">✕</a>
+  </header>
+
+  <main>
+    <div class="game-title-row">
+      <h1>▦ Patches</h1>
+      <p class="blurb">Carve the grid into rectangles, one clue per patch.</p>
+    </div>
+
+    <details class="how-to-play">
+      <summary>How to play</summary>
+      <p>Press on an empty cell and drag to another to draw a rectangular patch, then release to place it. Every patch must contain exactly one numbered clue, and its area (number of cells) must equal that number. Some clues also show a small shape badge — ▭ for wide, a rotated ▭ for tall, and ▢ for square — meaning the patch's proportions must match too; clues with no badge accept any proportions. Tap a placed patch to remove it. You win once the whole grid is divided into patches that each satisfy their clue.</p>
+    </details>
+
+    <div class="toolbar">
+      <span id="progress-chip" class="stat-chip">Patches: 0 / 0</span>
+    </div>
+
+    <div id="board"></div>
+
+    <div class="toolbar">
+      <button id="undo-btn" class="btn btn-secondary">Undo</button>
+      <button id="reveal-btn" class="btn btn-secondary">Reveal Solution</button>
+      <button id="new-game-btn" class="btn btn-primary">New Game</button>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

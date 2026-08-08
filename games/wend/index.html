@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wend — Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a66c2%22/></svg>">
+  <link rel="stylesheet" href="../shared/css/tokens.css">
+  <link rel="stylesheet" href="../shared/css/base.css">
+  <link rel="stylesheet" href="../shared/css/components.css">
+  <link rel="stylesheet" href="../shared/css/responsive.css">
+  <link rel="stylesheet" href="wend.css">
+</head>
+<body class="game-page">
+  <header class="li-header">
+    <a class="brand" href="../">
+      <span class="logo-badge">G</span>
+      <span>Games</span>
+    </a>
+    <span class="crumb">/ Wend</span>
+    <span class="spacer"></span>
+    <a class="btn btn-icon" href="../">✕</a>
+  </header>
+
+  <main>
+    <div class="game-title-row">
+      <h1>🧵 Wend</h1>
+      <p class="blurb">Wind through every tile spelling four hidden words.</p>
+    </div>
+
+    <details class="how-to-play">
+      <summary>How to play</summary>
+      <p>Drag across adjacent tiles to spell a word. Find all four words — of lengths 3, 4, 5 and 6 — so that together they use every tile exactly once. Bold borders are walls you can't cross.</p>
+    </details>
+
+    <div id="words" class="wend-words"></div>
+    <div id="board" class="wend-board"></div>
+
+    <div class="toolbar">
+      <button id="new-game-btn" class="btn btn-primary">New Game</button>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

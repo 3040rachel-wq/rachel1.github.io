@@ -1,0 +1,29 @@
+/* Shared breakpoints. Individual game CSS files handle their own board
+   sizing; this file covers hub layout + generic chrome. */
+
+@media (max-width: 640px) {
+  .game-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2);
+    padding: var(--space-2);
+  }
+  .li-header {
+    padding: var(--space-2);
+  }
+  .li-header .crumb {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .game-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ensure touch targets stay comfortably tappable everywhere */
+@media (pointer: coarse) {
+  .btn, .btn-icon {
+    min-height: 40px;
+  }
+}

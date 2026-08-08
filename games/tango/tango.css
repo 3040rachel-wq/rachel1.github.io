@@ -1,0 +1,100 @@
+.tango-board-wrap {
+  position: relative;
+  width: min(90vw, 360px);
+  aspect-ratio: 1;
+}
+
+.tango-board {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background: var(--li-white);
+  border: 3px solid var(--li-gray-900);
+  border-radius: var(--radius-tile);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  box-sizing: border-box;
+}
+
+.tango-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--li-gray-300);
+  background: var(--li-white);
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0;
+}
+.tango-cell:hover {
+  background: var(--li-blue-tint);
+}
+.tango-cell.given {
+  background: var(--li-gray-050);
+  cursor: default;
+}
+.tango-cell.given:hover {
+  background: var(--li-gray-050);
+}
+.tango-cell.conflict {
+  background: var(--danger-bg);
+}
+
+.tango-icon {
+  width: 60%;
+  height: 60%;
+  overflow: visible;
+}
+.tango-sun circle {
+  fill: var(--accent-tango-sun);
+}
+.tango-sun .rays line {
+  stroke: var(--accent-tango-sun);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+.tango-moon circle {
+  fill: var(--accent-tango-moon);
+}
+
+/* Marker overlay — absolutely positioned badges pinned to the shared edge
+   between the two cells they constrain, positioned by percentage against
+   the 6x6 grid (inset matches the board's own border thickness so 0-100%
+   lines up with the cell tracks). */
+.tango-marker-layer {
+  position: absolute;
+  inset: 3px;
+  pointer-events: none;
+}
+.tango-marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--li-white);
+  border: 1.5px solid var(--li-gray-900);
+  color: var(--li-gray-900);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  z-index: 5;
+}
+.tango-marker.bad {
+  background: var(--danger-bg);
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+@media (max-width: 420px) {
+  .tango-marker {
+    width: 16px;
+    height: 16px;
+    font-size: 0.65rem;
+  }
+}

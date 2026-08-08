@@ -1,0 +1,76 @@
+/* Design tokens — LinkedIn-brand palette + per-game accents.
+   Every color/spacing value the app uses lives here so the whole
+   games/ section reads as one coherent product. */
+:root {
+  /* LinkedIn brand */
+  --li-blue: #0a66c2;
+  --li-blue-dark: #004182;
+  --li-blue-legacy: #0077b5;
+  --li-blue-tint: #eef3f8;
+  --li-black: #000000;
+  --li-white: #ffffff;
+  --li-gray-050: #f9fafb;
+  --li-gray-100: #f3f2ef;
+  --li-gray-200: #e9e5df;
+  --li-gray-300: #dce0e5;
+  --li-gray-600: #666666;
+  --li-gray-700: #434649;
+  --li-gray-900: #191919;
+
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+
+  --radius-card: 12px;
+  --radius-tile: 8px;
+  --radius-btn: 24px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 12px 40px rgba(0, 0, 0, 0.28);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+
+  /* Per-game accents */
+  --accent-queens: #b8860b;
+  --accent-queens-bg: #fdf6e3;
+  --accent-tango-sun: #f5a623;
+  --accent-tango-moon: #4a6fa5;
+  --accent-zip: #ff7a00;
+  --accent-sudoku: #0a66c2;
+  --accent-patches: #2e8b57;
+  --accent-crossclimb: #0a66c2;
+  --accent-pinpoint: #6e4aa0;
+  --accent-wend: #2e7d32;
+
+  /* status colors */
+  --ok: #0f7b3e;
+  --danger: #c0392b;
+  --danger-bg: #fdecea;
+
+  /* Queens region palette — read from JS as a plain array, see queens/render.js */
+  --queens-color-0: #f6c9c9;
+  --queens-color-1: #c9e4f6;
+  --queens-color-2: #d8f6c9;
+  --queens-color-3: #f6ecc9;
+  --queens-color-4: #e0c9f6;
+  --queens-color-5: #c9f6ec;
+  --queens-color-6: #f6c9e6;
+  --queens-color-7: #d9d9d9;
+  --queens-color-8: #c9d3f6;
+}
+
+/* Dark-mode aware surfaces (LinkedIn games UI stays light; we keep a light
+   theme by default but respect prefers-color-scheme for the chrome only) */
+:root {
+  --surface: var(--li-white);
+  --surface-sunken: var(--li-gray-100);
+  --text: var(--li-gray-900);
+  --text-muted: var(--li-gray-600);
+  --border: var(--li-gray-300);
+}

@@ -1,0 +1,72 @@
+.clue-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: min(92vw, 480px);
+}
+
+.clue-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--li-white);
+  border-radius: var(--radius-tile);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-3);
+  animation: popIn 0.18s ease;
+}
+.clue-bar .clue-num {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-pinpoint);
+  color: var(--li-white);
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clue-bar .clue-text {
+  font-weight: 600;
+  color: var(--text);
+}
+.clue-bar.pending {
+  opacity: 0.4;
+}
+.clue-bar.pending .clue-num {
+  background: var(--li-gray-300);
+  color: var(--text-muted);
+}
+.clue-bar.pending .clue-text {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.guess-form {
+  display: flex;
+  gap: var(--space-2);
+  width: min(92vw, 480px);
+}
+.guess-form input[type="text"] {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: var(--radius-btn);
+  border: 1px solid var(--li-gray-300);
+  font-size: 1rem;
+  background: var(--li-white);
+  color: var(--text);
+}
+.guess-form input[type="text"]:focus {
+  outline: 2px solid var(--accent-pinpoint);
+  outline-offset: 1px;
+}
+.guess-form button:disabled,
+.guess-form input:disabled {
+  opacity: 0.5;
+}
+
+#progress-dots .dot.current {
+  background: var(--accent-pinpoint);
+}
